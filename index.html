@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Goldenrod Works - Innovating with Purpose. Building intuitive and lasting digital solutions.">
+    <title>Goldenrod Works</title>
+    <style>
+        /* Branding Colors */
+        :root {
+            --goldenrod-yellow: #DAA520;
+            --charcoal: #2C2C2C;
+            --forest-green: #2F4F2F;
+            --rust-red: #B7410E;
+            --slate-blue: #4A5F6A;
+            --background: #F5F5F5;
+            --text-color: #2C2C2C;
+        }
+
+        /* Reset Styles */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: "Playfair Display", serif;
+        }
+
+        body {
+            background-color: var(--background);
+            color: var(--text-color);
+            text-align: center;
+            padding: 20px;
+        }
+
+        /* Header */
+        header {
+            background: var(--charcoal);
+            color: white;
+            padding: 20px;
+            font-size: 24px;
+            font-weight: bold;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        /* Hero Section */
+        .hero {
+            padding: 60px 20px;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+            max-width: 900px;
+            margin: 40px auto;
+            animation: fadeIn 1s ease-in-out;
+        }
+
+        .logo {
+            font-size: 42px;
+            font-weight: bold;
+            color: var(--goldenrod-yellow);
+            margin-bottom: 20px;
+        }
+
+        h1 {
+            color: var(--forest-green);
+            font-size: 32px;
+            margin-bottom: 10px;
+        }
+
+        p {
+            font-size: 18px;
+            line-height: 1.6;
+            color: var(--charcoal);
+        }
+
+        /* Core Values Section */
+        .values {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            margin: 40px auto;
+            gap: 20px;
+            max-width: 900px;
+        }
+
+        .value-card {
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
+            width: 250px;
+            text-align: center;
+            transition: transform 0.2s ease-in-out;
+        }
+
+        .value-card:hover {
+            transform: scale(1.05);
+        }
+
+        .value-card h3 {
+            color: var(--rust-red);
+            font-size: 20px;
+            margin-bottom: 10px;
+        }
+
+        /* Team Section */
+        .team-section {
+            margin: 60px auto;
+            max-width: 900px;
+            padding: 20px;
+        }
+
+        .team-heading {
+            font-size: 28px;
+            color: var(--forest-green);
+            margin-bottom: 20px;
+        }
+
+        .team-container {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+
+        .team-member {
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            width: 220px;
+            transition: transform 0.2s ease-in-out;
+        }
+
+        .team-member:hover {
+            transform: scale(1.05);
+        }
+
+        .team-member img {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-bottom: 10px;
+            border: 3px solid var(--goldenrod-yellow);
+        }
+
+        .team-member h3 {
+            font-size: 20px;
+            color: var(--charcoal);
+        }
+
+        .team-member p {
+            font-size: 16px;
+            color: var(--slate-blue);
+            margin-top: 5px;
+        }
+
+        /* Call to Action */
+        .cta {
+            margin: 30px 0;
+        }
+
+        .cta-button {
+            background: var(--goldenrod-yellow);
+            color: white;
+            padding: 12px 24px;
+            font-size: 18px;
+            font-weight: bold;
+            border-radius: 5px;
+            text-decoration: none;
+            transition: background 0.3s;
+        }
+
+        .cta-button:hover {
+            background: var(--rust-red);
+        }
+
+        /* Footer */
+        footer {
+            margin-top: 40px;
+            padding: 20px;
+            background: var(--charcoal);
+            color: white;
+            font-size: 14px;
+        }
+
+        /* Fade-in Animation */
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        Goldenrod Labs
+    </header>
+
+    <div class="hero">
+        <div class="logo">🌿 Goldenrod Works</div>
+        
+        <h1>Innovating with Purpose</h1>
+        <p>Building intuitive and lasting digital solutions that blend technology with thoughtful design.</p>
+        
+        <div class="cta">
+            <a href="mailto:goldenrod.works@gmail.com" class="cta-button">Get in Touch</a>
+        </div>
+    </div>
+
+    <div class="values">
+        <div class="value-card">
+            <h3>✨ Thoughtful Innovation</h3>
+            <p>We create solutions with real impact.</p>
+        </div>
+        <div class="value-card">
+            <h3>🔍 Craftsmanship in Tech</h3>
+            <p>Every detail matters in what we build.</p>
+        </div>
+        <div class="value-card">
+            <h3>🌱 Sustainability & Longevity</h3>
+            <p>Designed to last, not just for now.</p>
+        </div>
+        <div class="value-card">
+            <h3>🚀 Practical & Impactful</h3>
+            <p>Solving real-world problems, elegantly.</p>
+        </div>
+    </div>
+
+    <div class="team-section">
+        <h2 class="team-heading">Meet the Team</h2>
+        <div class="team-container">
+            <div class="team-member">
+                <img src="https://via.placeholder.com/100" alt="Founder & Lead Developer">
+                <h3>Kevin Ramdath</h3>
+                <p>Founder & Lead Developer</p>
+            </div>
+            <div class="team-member">
+                <img src="https://via.placeholder.com/100" alt="Designer">
+                <h3>Team Member</h3>
+                <p>UI/UX Designer</p>
+            </div>
+            <div class="team-member">
+                <img src="https://via.placeholder.com/100" alt="Engineer">
+                <h3>Team Member</h3>
+                <p>Software Engineer</p>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        &copy; 2025 Goldenrod Works. All rights reserved.
+    </footer>
+
+</body>
+</html>
